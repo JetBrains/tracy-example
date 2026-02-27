@@ -31,6 +31,9 @@ Asks GPT-4o-mini to greet you. The model calls two tools to get your name and th
 
 ![Langfuse trace showing the Greeting Agent span tree with tool calls and the final OpenAI generation](docs/langfuse-trace.png)
 
+> **Want to see the app without any instrumentation?**
+> Check out the `without-tracy` branch, the same app with Tracy and Langfuse completely removed.
+
 ---
 
 ## Instrumentation
