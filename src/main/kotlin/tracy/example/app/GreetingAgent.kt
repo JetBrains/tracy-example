@@ -7,19 +7,15 @@ import com.openai.models.responses.ResponseCreateParams
 import com.openai.models.responses.ResponseFunctionToolCall
 import com.openai.models.responses.ResponseInputItem
 import com.openai.models.responses.ResponseOutputMessage
-import org.jetbrains.ai.tracy.core.instrumentation.processor.withSpan
-
 /** Calls GPT-4o-mini in a loop, executing tools until the model returns a text reply. */
 fun runGreetingAgent(client: OpenAIClient): String {
     var greeting = ""
 
-    withSpan("Greeting Agent") {
-        val conversation = buildInitialConversation()
+    val conversation = buildInitialConversation()
 
-        while (greeting.isEmpty()) {
-            val response = callModel(client, conversation)
-            greeting = processResponse(response, conversation)
-        }
+    while (greeting.isEmpty()) {
+        val response = callModel(client, conversation)
+        greeting = processResponse(response, conversation)
     }
 
     return greeting
