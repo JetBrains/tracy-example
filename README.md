@@ -1,4 +1,4 @@
-[![Tracy](https://img.shields.io/badge/Tracy-0.0.29-blue)](https://plugins.gradle.org/plugin/org.jetbrains.ai.tracy)
+[![Tracy](https://img.shields.io/badge/Tracy-0.1.0-blue)](https://plugins.gradle.org/plugin/org.jetbrains.ai.tracy)
 [![OpenAI Java](https://img.shields.io/badge/openai--java-4.16.0-412991)](https://github.com/openai/openai-java)
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.3.0-7F52FF?logo=kotlin&logoColor=white)](https://kotlinlang.org)
 
