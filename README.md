@@ -33,6 +33,9 @@ Asks GPT-4o-mini to greet you. The model calls two tools to get your name and th
 
 > **Want to see the app without any instrumentation?**
 > Check out the `without-tracy` branch, the same app with Tracy and Langfuse completely removed.
+>
+> **Want to see what instrumenting this app looks like with the raw OpenTelemetry SDK instead of Tracy?**
+> Check out the `otel-sdk-trace` branch — same agent, manually instrumented, with a breakdown of the tradeoffs.
 
 ---
 
