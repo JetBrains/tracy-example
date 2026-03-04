@@ -19,11 +19,13 @@ cd tracy-example
 git checkout otel-sdk-trace
 
 export OPENAI_API_KEY=sk-...
-export LANGFUSE_PUBLIC_KEY=pk-lf-...
-export LANGFUSE_SECRET_KEY=sk-lf-...
+export LANGFUSE_PUBLIC_KEY=pk-lf-...  # optional
+export LANGFUSE_SECRET_KEY=sk-lf-...  # optional
 
 ./gradlew run
 ```
+
+Langfuse credentials are optional — if not provided, traces will be exported to the console instead.
 
 ---
 
