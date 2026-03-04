@@ -15,13 +15,15 @@ git clone https://github.com/JetBrains/tracy-example.git
 cd tracy-example
 
 export OPENAI_API_KEY=sk-...
-export LANGFUSE_PUBLIC_KEY=pk-lf-...
-export LANGFUSE_SECRET_KEY=sk-lf-...
+export LANGFUSE_PUBLIC_KEY=pk-lf-...  # optional
+export LANGFUSE_SECRET_KEY=sk-lf-...  # optional
 
 ./gradlew run
 ```
 
 Get your Langfuse keys at **[langfuse.com](https://cloud.langfuse.com/) → Project Settings → API Keys**.
+
+Langfuse credentials are optional — if not provided, traces will be exported to the console instead.
 
 ---
 
