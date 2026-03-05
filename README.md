@@ -1,6 +1,8 @@
 [![Tracy](https://img.shields.io/badge/Tracy-0.1.0-blue)](https://plugins.gradle.org/plugin/org.jetbrains.ai.tracy)
 [![OpenAI Java](https://img.shields.io/badge/openai--java-4.16.0-412991)](https://github.com/openai/openai-java)
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.3.0-7F52FF?logo=kotlin&logoColor=white)](https://kotlinlang.org)
+[![Documentation](https://img.shields.io/badge/documentation-blue)](https://jetbrains.github.io/tracy/0.1.0)
+[![API Docs](https://img.shields.io/badge/API-Docs-blue)](https://jetbrains.github.io/tracy/0.1.0/api)
 
 # Tracy Example
 
@@ -91,3 +93,10 @@ withSpan("Greeting Agent") { ... }
 | [`GetUserName.kt`](src/main/kotlin/tracy/example/app/GetUserName.kt)               | tool: OS username         |
 | [`GetCurrentDateTime.kt`](src/main/kotlin/tracy/example/app/GetCurrentDateTime.kt) | tool: date & time         |
 | [`GreetingAgent.kt`](src/main/kotlin/tracy/example/app/GreetingAgent.kt)           | agent loop                |
+
+---
+
+## Learn More
+
+- **[Tracy Documentation](https://jetbrains.github.io/tracy/0.1.0)** — Full guide on tracing APIs, OpenTelemetry configuration, and compiler plugin
+- **[API Reference](https://jetbrains.github.io/tracy/0.1.0/api)** — Detailed API docs for all Tracy modules
